@@ -2,6 +2,7 @@ import Profilo from "./assets/components/profilo";
 import Contatore from "./assets/components/Contatore";
 import Luce from "./assets/components/Luce";
 import ListaFrutti from "./assets/components/ListaFrutti";
+import InputTesto from "./assets/components/InputTesto";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Contatore />
       <Luce />
       <ListaFrutti />
+      <InputTesto />
     </div>
   );
 };
