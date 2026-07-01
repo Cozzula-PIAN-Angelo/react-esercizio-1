@@ -1,15 +1,17 @@
-import "./App.css";
-import CustomBtn from "./assets/components/CustomBtn";
-import CustomImg from "./assets/components/CustomImg";
+import Profilo from "./assets/components/profilo";
+import Contatore from "./assets/components/Contatore";
+import Luce from "./assets/components/Luce";
+import ListaFrutti from "./assets/components/ListaFrutti";
 
-const App = function () {
+const App = () => {
   return (
-    <>
-      <CustomBtn title="sono un bottone" />
-      <CustomImg src="https://images4.alphacoders.com/733/thumb-1920-733977.jpg" />
-      <CustomImg src="https://images4.alphacoders.com/733/thumb-1920-733977.jpg" />
-      <CustomBtn title="im a button" />
-    </>
+    <div>
+      <Profilo nome="Angelo" eta="30" cognome="Cozzula" citta="roma" />
+      <Contatore />
+      <Luce />
+      <ListaFrutti />
+    </div>
   );
 };
+
 export default App;
